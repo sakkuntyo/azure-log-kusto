@@ -1,0 +1,7 @@
+// What data is being collected?
+// List the collected performance counters and object types (Process, Memory, Processor..)
+Perf 
+//| summarize by ObjectName, CounterName, 
+| summarize by TimeGenerated, Computer, ObjectName, CounterName, CounterValue, InstanceName
+
+
